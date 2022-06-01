@@ -16,3 +16,4 @@ Data yang telah di-backup dapat dikembalikan kapan saja dan Syntax yang digunaka
 ### 3.Lakukan proses backup dan recovery dengan sqldump dari database tugas seblumnya !<p>
 ![image](https://user-images.githubusercontent.com/101499377/171465056-0bb35dc0-9591-4736-8043-97a2454a4e1f.png)<p>
 ### 4.Tulisakan script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam !<p>
+0 0 * * 7 mysqldump -u root –p komarudin_312010068>komarudin_312010068_backup.sql<p>
